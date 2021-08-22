@@ -51,7 +51,7 @@ const getWarner = async (req, res) => {
     res.status(200).json(filtrarWarner)
 }
 
-//Atualiza um título cadastrado - NAO TA PEGANDO
+//Atualiza um título cadastrado 
 const updateTitulo = async (req, res) => {
 
     try{
